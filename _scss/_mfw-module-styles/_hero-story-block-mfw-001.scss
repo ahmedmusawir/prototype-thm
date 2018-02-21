@@ -1,0 +1,38 @@
+/**
+ *
+ * Hero Story Block 001
+ *
+ */
+
+ #hero-story-block-mfw-001 {
+	width: 100vw;
+ 	height: 100vh;
+
+ 	@media (max-width: 500px) {
+ 		width: 100%;
+ 		height: auto;
+ 	}
+
+
+	background: url("/wp-content/uploads/2018/02/hero-story-1920x1400.jpg") no-repeat center center fixed;
+
+	  -webkit-background-size: cover;
+
+	  -moz-background-size: cover;
+
+	  -o-background-size: cover;
+
+	  background-size: cover;		
+
+	  .block-content {
+	  	background-color: lighten($cg-secondary, 50%);
+
+	  	.block-title {
+	  		font-size: 4rem;
+	  	}
+	  	.block-subtitle {
+	  		font-size: 3rem;
+	  	}
+	  }	 	
+
+ }
